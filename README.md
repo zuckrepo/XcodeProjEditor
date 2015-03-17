@@ -9,7 +9,7 @@ A Simple Utility Class to Process Pbxproj File.
 
 **Get String Contents with Node Name**  
 
-    NSString* content = [[editor find]stringWithNodeName:@"Supporting Files"];  
+    NSString* content = [editor stringWithNodeName:@"Supporting Files"];  
 
 **Modify String Contents**
 
@@ -27,7 +27,7 @@ A Simple Utility Class to Process Pbxproj File.
 
 **Get All String Contents in Pbxproj Files**
 
-    NSString* allContent = [[editor find]stringWithNodeName:nil];
+    NSString* allContent = [editor stringWithNodeName:nil];
 
 **Replace with New String Contents in File**  
 
