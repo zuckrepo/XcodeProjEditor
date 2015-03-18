@@ -1,5 +1,5 @@
 # XcodeProjEditor
-A Simple Utility Class to Process Pbxproj File.  
+A Simple Utility ObjC Class to Process Pbxproj File.  
 
 # Usage  
 
